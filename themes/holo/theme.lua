@@ -13,8 +13,8 @@ theme.wallpaper                     = os.getenv("HOME") .. "/.config/awesome/the
 
 theme.topbar_path                   = "png:" .. theme.icon_dir .. "/topbar/"
 
-theme.font                          = "Tamsyn 10.5"
-theme.taglist_font                  = "Tamsyn 8"
+theme.font                          = "Tamsyn 8"
+theme.taglist_font                  = "Tamsyn 7"
 theme.fg_normal                     = "#FFFFFF"
 theme.fg_focus                      = "#0099CC"
 theme.bg_normal                     = "#242424"
@@ -22,16 +22,16 @@ theme.fg_urgent                     = "#CC9393"
 theme.bg_urgent                     = "#2A1F1E"
 theme.border_width                  = "1"
 theme.border_normal                 = "#252525"
-theme.border_focus                  = "#0099CC"
+theme.border_focus                  = theme.border_normal --"#0099CC"
 theme.taglist_fg_focus              = "#FFFFFF"
 theme.taglist_bg_focus              = "png:" .. theme.icon_dir .. "/taglist_bg_focus.png"
 theme.tasklist_bg_normal            = "#222222"
 theme.tasklist_fg_focus             = "#4CB7DB"
 theme.tasklist_bg_focus             = "png:" .. theme.icon_dir .. "/bg_focus_noline.png"
 theme.textbox_widget_margin_top     = 1
-theme.awful_widget_height           = 14
+theme.awful_widget_height           = 12
 theme.awful_widget_margin_top       = 2
-theme.menu_height                   = "20"
+theme.menu_height                   = "18"
 theme.menu_width                    = "400"
 
 theme.widget_bg                     = theme.icon_dir .. "/bg_focus_noline.png"
@@ -61,7 +61,9 @@ theme.calendar                      = theme.icon_dir .. "/cal.png"
 theme.cpu                           = theme.icon_dir .. "/cpu.png"
 theme.net_up                        = theme.icon_dir .. "/net_up.png"
 theme.net_down                      = theme.icon_dir .. "/net_down.png"
+theme.mail                          = theme.icon_dir .. "/mail.png"
 theme.widget_mail_notify            = theme.icon_dir .. "/mail_notify.png"
+theme.battery                       = theme.icon_dir .. "/battery.png"
 
 theme.layout_tile                   = theme.icon_dir .. "/tile.png"
 theme.layout_tilegaps               = theme.icon_dir .. "/tilegaps.png"

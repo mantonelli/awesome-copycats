@@ -29,6 +29,7 @@ function new(arg)
     programs['AudioVideo'] = {}
     programs['Development'] = {}
     programs['Education'] = {}
+    programs['Engineering'] = {}
     programs['Game'] = {}
     programs['Graphics'] = {}
     programs['Network'] = {}
@@ -73,6 +74,7 @@ function new(arg)
     local menu = {
         { "Accessories", programs["Utility"], utils.lookup_icon({ icon = 'applications-accessories' }) },
         { "Development", programs["Development"], utils.lookup_icon({ icon = 'applications-development' }) },
+        { "Engineering", programs["Engineering"], utils.lookup_icon({ icon = 'applications-science' }) },
         { "Education", programs["Education"], utils.lookup_icon({ icon = 'applications-science' }) },
         { "Games", programs["Game"], utils.lookup_icon({ icon = 'applications-games' }) },
         { "Graphics", programs["Graphics"], utils.lookup_icon({ icon = 'applications-graphics' }) },

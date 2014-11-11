@@ -139,7 +139,7 @@ end
 -- @return A table with file extension <--> MIME type mapping
 function load_mime_types()
     if #mime_types == 0 then
-        for line in io.lines('/etc/mime.types') do
+        for line in io.lines('/etc/httpd/mime.types') do
             if not line:find('^#') then
                 local parsed = {}
                 for w in line:gmatch('[^%s]+') do
