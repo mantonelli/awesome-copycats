@@ -772,6 +772,14 @@ awful.rules.rules = {
                          
     { rule = { class = "rdesktop", role = "gimp-image-window" },
           properties = { tag = tags[1][4] } },
+    { 
+    rule = { class = "Firefox" },
+    properties = { tag = tags[1][1] } 
+    },
+    { 
+    rule = { class = "Thunderbird" },
+    properties = { tag = tags[1][1] } 
+    }
 }
 -- }}}
 
